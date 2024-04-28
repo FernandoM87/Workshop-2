@@ -1,0 +1,21 @@
+<h1>Video Games List</h1>
+{{!-- 
+<p>
+    {{#if message}}
+    {{message}}
+    {{else}}
+    No message, sorry!
+    {{/if}}
+</p> --}}
+
+<div>
+    <ul>
+        {{#each games}}
+        <li>
+            <a href="/games/{{_id}}">{{title}}</a>
+            <p>Genre: {{genre}}</p>
+            <p>Description: {{description}}</p>
+        </li>
+        {{/each}}
+    </ul>
+   

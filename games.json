@@ -1,0 +1,9 @@
+{
+    "_id": "...",
+    "title": "Dark Souls 3",
+    "genre": "Action RPG",
+    "image" : "img/DarkSouls3.jpeg",
+    "description": "Dark Souls 3 is an action role-playing video game developed by FromSoftware and published by Bandai Namco Entertainment for PlayStation 4, Xbox One, and Microsoft Windows.",
+    "price": 59.99,
+    "year": 2016
+}

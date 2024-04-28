@@ -1,0 +1,19 @@
+    <form action="/new-game" method="post">
+        <input type="text" name="title" placeholder="Title">
+        <input type="text" name="genre" placeholder="Genre">
+        <textarea id="description" name="description" rows="6" placeholder="Description"></textarea>
+        <input type="submit" class="btn">
+    </form>
+
+{{!-- <h1>Games</h1>
+<div>
+    <ul>
+        {{#each games}}
+        <li>
+            <a href="/games/{{this.id}}">{{this.name}}</a>
+            <p>Genre: {{this.genre}}</p>
+            <img src={{this.image}} alt="image">
+        </li>
+        {{/each}}
+    </ul>
+</div> --}}
